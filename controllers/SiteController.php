@@ -125,4 +125,10 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionHelloWorld()
+    {
+        $hello = "Mari merintis belajar ngoding Yii freamwork";
+        return $hello;
+    }
 }
